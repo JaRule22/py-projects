@@ -38,7 +38,7 @@ def randomize_options():
 
     return option_a, option_b
 
-# This function just gives the player info about option A and B
+# This function just gives the player info about options A and B
 def compare_a_and_b_description(the_option_a, the_option_b):
     print(f"Compare A: {the_option_a["name"]}, a {the_option_a["description"]}, from {the_option_a["country"]}")
     print(art.vs)
@@ -78,10 +78,10 @@ def compare_a_and_b_calculation(the_option_a, the_option_b, the_user_score):
                 compare_a_and_b_description(the_option_a, the_option_b)
 
 
-# If option A has more followers than option B, then it is the right pick, otherwise
+# If option A has more followers than option B, then it is the right pick; otherwise
 # it is option B
 
-# If the user gets it wrong then it is Game Over and the game demonstrates final score
+# If the user gets it wrong, then it is Game Over, and the game demonstrates the  final score
 rand_number = randomize_options()
 
 instagram_user_a = rand_number[0]
