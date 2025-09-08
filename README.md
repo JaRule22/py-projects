@@ -1,2 +1,2 @@
 # py-projects
-A list of python mini and large projects
+A list of python mini and medium sized projects
